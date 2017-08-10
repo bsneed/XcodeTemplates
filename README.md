@@ -30,9 +30,14 @@ Done.  The new project now lives here: ~/MyWorkDirectory/MyUtilityLib
 
 Now you can open the MyUtilityLib project and see it has been catered to your needs.
 
+Creating your own Templates
+---------------------------
 
-Templates
----------
+Simply start a new Xcode project and place it next to useTemplate.sh on the file system.  The only things you need to do initially is set the organization name to `__TemplateOrgName__`, and use `__templateorgname__` as a bundle identifier.
+
+
+Templates Descriptions
+----------------------
 
 `SwiftUtilityLib`
 
