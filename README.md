@@ -8,7 +8,7 @@ Usage
 
 Clone this repository, and navigate to it on the command line.
 
-./useTemplate.sh <template> <new_name> <directory>
+`./useTemplate.sh <template> <new_name> <directory>`
   
 Example:
 
