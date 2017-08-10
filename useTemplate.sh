@@ -54,19 +54,19 @@ OLDNAME=`echo "${OLDNAME}" | sed -e "s/[^a-zA-Z0-9_ -]//g"`
 NEWNAME=`echo "${NEWNAME}" | sed -e "s/[^a-zA-Z0-9_ -]//g"`
 
 if [ "$OLDNAME" = "" -o "$NEWNAME" = "" ]; then
-	echo "usage: $0 <old name> <new name> <working path>"
+	echo "usage: $0 <template> <new_name> <directory>"
 	exit 2
 fi
 
 if [ "$WORKDIR" = "" ]; then
-	echo "usage: $0 <old name> <new name> <working path>"
+	echo "usage: $0 <template> <new_name> <directory>"
 	exit 2
 fi
 
 echo "${NEWNAME}" | grep "${OLDNAME}" > /dev/null
 if [ $? -eq 0 ]; then
 	echo "${NEWNAME}, ${OLDNAME}"
- 	echo "error: new project name cannot contain the old project name."
+ 	echo "error: new project name cannot contain the template name."
  	exit 2
 fi
 
@@ -84,7 +84,7 @@ fi
 ackInstalled
 renameInstalled
 
-echo "Copying $OLDNAME to $NEWPATH"
+echo "\nCopying $OLDNAME to $NEWPATH"
 copyTemplateToNewPath $OLDNAME $NEWPATH
 
 echo "Renaming files ..."
@@ -93,10 +93,10 @@ renameFiles $NEWPATH $OLDNAME $NEWNAME
 echo "Replacing occurences of $OLDNAME with $NEWNAME ..."
 replaceOccurrences $OLDNAME $NEWNAME $NEWPATH
 
-echo "Enter the desired Organization name:"
+echo "\nEnter the desired Organization name:"
 read ORGNAME
 replaceOrgNames $ORGNAME $NEWPATH
 
-echo "Done.  The new project now lives here: $NEWPATH"
+echo "\nDone.  The new project now lives here: $NEWPATH"
 
 
