@@ -28,7 +28,7 @@ Done.  The new project now lives here: ~/MyWorkDirectory/MyUtilityLib
 
 ```
 
-Now you can open the MyUtilityLib project and see it has been catered to your project.
+Now you can open the MyUtilityLib project and see it has been catered to your needs.
 
 
 Templates
