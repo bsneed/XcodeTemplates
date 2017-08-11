@@ -1,7 +1,7 @@
 # XcodeTemplates
 Template system for Xcode projects that's much easier to manage and add to.
 
-note: Static lib templates require Xcode 9 and above.
+note: Swift Static lib templates require Xcode 9 and above.
 
 Usage
 -----
