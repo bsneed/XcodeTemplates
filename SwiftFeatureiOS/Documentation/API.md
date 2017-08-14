@@ -1,6 +1,5 @@
 
 # SwiftFeatureiOS API Contract
-====
 
 ## Description
 
@@ -11,13 +10,11 @@ Nunc non maximus lacus. Aliquam molestie maximus magna, id imperdiet justo sagit
 Integer aliquam nec lorem at iaculis. Aliquam bibendum interdum nibh, sit amet scelerisque felis dapibus ut. Phasellus eu arcu vel diam rutrum viverra eget at est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin et est luctus, maximus urna accumsan, feugiat lorem. Suspendisse quis lacus vel dui porttitor vestibulum quis iaculis massa. Praesent tincidunt arcu velit, in convallis turpis tincidunt vel. Phasellus eleifend orci id dapibus blandit. Phasellus iaculis rutrum mi, vel laoreet elit bibendum quis. Curabitur at ligula id nulla molestie viverra et et metus. Pellentesque leo arcu, vestibulum porttitor dui eu, euismod maximus est. Aliquam laoreet, justo nec placerat dignissim, purus lectus lacinia nisl, a viverra orci lacus a odio. Morbi scelerisque urna ut felis pellentesque egestas eu maximus magna. Aliquam scelerisque tincidunt risus eu euismod. Ut ut arcu dui. Sed ut elit enim.
 
 ### Classes
-----
 
-[MyClass][/MyClass.md]
+MyClass[/MyClass.md]
 
 ### Types
-----
 
-[MyStruct][/MyStruct.md]
+MyStruct[/MyStruct.md]
 
 
