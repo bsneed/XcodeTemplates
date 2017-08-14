@@ -9,7 +9,9 @@ Nunc non maximus lacus. Aliquam molestie maximus magna, id imperdiet justo sagit
 
 # Methods
 
-[`public func dummy(param: MyType) -> Bool`](#dummy_param_bool)
+`swift
+public func dummy(param: MyType) -> Bool
+`
 
 #### `public func dummy(param: MyType) -> Bool`[#dummy_param_bool]
   
