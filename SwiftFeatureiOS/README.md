@@ -16,9 +16,9 @@ The SwiftFeatureiOS API contract can be found here: [API Contract](/SwiftFeature
 
 For more help or information using, integrating, feature requests, etc, please contact one of the follow team members on Slack or via E-Mail
 
-[George Bush](g-dub@blah.org)
-[Bill Clinton](btothac@blah.org)
-[Barak Obama](thanks@blah.org)
+[George Bush](g-dub@blah.org)</ br>
+[Bill Clinton](btothac@blah.org)</ br>
+[Barak Obama](thanks@blah.org)</ br>
 
 
 
