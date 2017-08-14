@@ -11,10 +11,10 @@ Integer aliquam nec lorem at iaculis. Aliquam bibendum interdum nibh, sit amet s
 
 ### Classes
 
-MyClass[/MyClass.md]
+[MyClass](/MyClass.md)
 
 ### Types
 
-MyStruct[/MyStruct.md]
+[MyStruct](/MyStruct.md)
 
 
