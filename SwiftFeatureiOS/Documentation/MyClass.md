@@ -12,11 +12,13 @@ Nunc non maximus lacus. Aliquam molestie maximus magna, id imperdiet justo sagit
 ```swift
 public func dummy(param: MyType) -> Bool
 ```
-- Parameters:
-  * param: A dummy parameter
 
-- Returns:
-  A bool representing success or failure.
+*Parameters*
+  
+`param`: A dummy parameter, see [MyType](/SwiftFeatureiOS/Documentation/MyType.md)
+
+*Return Value*
+A bool representing success or failure.
    
 
 ###### Parameters
