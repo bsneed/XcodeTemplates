@@ -9,17 +9,14 @@ Nunc non maximus lacus. Aliquam molestie maximus magna, id imperdiet justo sagit
 
 # Methods
 
-`swift
+```swift
 public func dummy(param: MyType) -> Bool
-`
+```
+- Parameters:
+  * param: A dummy parameter
 
-#### `public func dummy(param: MyType) -> Bool`[#dummy_param_bool]
-  
-  - Parameters:
-    - param: A dummy parameter
-  
-  - Returns:
-    A bool representing success or failure.
+- Returns:
+  A bool representing success or failure.
    
 
 ###### Parameters
