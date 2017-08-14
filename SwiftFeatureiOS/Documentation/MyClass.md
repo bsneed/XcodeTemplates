@@ -9,17 +9,32 @@ Nunc non maximus lacus. Aliquam molestie maximus magna, id imperdiet justo sagit
 
 # Methods
 
+-----------------------------
+
 ```swift
 public func dummy(param: MyType) -> Bool
 ```
 
-*Parameters*
+###### Parameters
   
 `param`: A dummy parameter, see [MyType](/SwiftFeatureiOS/Documentation/MyType.md)
 
-*Return Value*
+###### Return Value
+
 A bool representing success or failure.
    
+----------------------------
+
+```swift
+public func riffRaff(dr_pepper: Bool) -> MyType
+```
 
 ###### Parameters
+  
+`dr_pepper`: Specifies whether RiffRaff requires a Dr. Pepper.
+
+###### Return Value
+
+A `MyType` representing overall hip hop output as compared to peers within the system.  See [MyType](/SwiftFeatureiOS/Documentation/MyType.md)
+   
 
