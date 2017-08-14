@@ -2,7 +2,7 @@
 //  IosSpecificTests.swift
 //  SwiftUtilityLibTests_ios
 //
-//  Created by Sneed, Brandon on 8/10/17.
+//  Created by Last, First on xx/xx/xx.
 //  Copyright © 2017 __TemplateOrgName__. All rights reserved.
 //
 

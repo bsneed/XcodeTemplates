@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# get the username, comes back as "Sneed, Brandon"
+USERNAME=$(id -F)
+# duplicate the way xcode does dates in it's templates: 8/1/17
+DATE=$(date +%m/%d/%y | sed 's/^0//g')
+
+
 ackInstalled() {
 	if ! [ -x "$(command -v ack)" ]; then
 		echo >&2 "error: Ack is not installed, install 'ack' via brew."
@@ -43,6 +49,10 @@ replaceOrgNames() {
 	ack --literal --files-with-matches "__TemplateOrgName__" --print0 "$2" | xargs -0 sed -i "" "s/__TemplateOrgName__/$NEWORGNAME/g"
 	ack --literal --files-with-matches "__templateorgname__" --print0 "$2" | xargs -0 sed -i "" "s/__templateorgname__/$NEWORGBUNDLENAME/g"
 	ack --literal --files-with-matches "--templateorgname--" --print0 "$2" | xargs -0 sed -i "" "s/--templateorgname--/$NEWORGBUNDLENAME/g"
+}
+
+replaceCreationInfo() {
+	ack --literal --files-with-matches "//  Created by" --print0 "$1" | xargs -0 sed -i "" "s|^//  Created by.*|//  Created by $USERNAME on $DATE.|g"
 }
 
 OLDNAME=$1
@@ -93,6 +103,9 @@ renameFiles $NEWPATH $OLDNAME $NEWNAME
 
 echo "Replacing occurences of $OLDNAME with $NEWNAME ..."
 replaceOccurrences $OLDNAME $NEWNAME $NEWPATH
+
+echo "Replacing creation info with: // Created by $USERNAME on $DATE."
+replaceCreationInfo $NEWPATH
 
 echo "\nEnter the desired Organization name:"
 read ORGNAME

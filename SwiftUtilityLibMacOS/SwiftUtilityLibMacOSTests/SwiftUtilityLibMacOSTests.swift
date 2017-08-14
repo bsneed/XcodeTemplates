@@ -2,7 +2,7 @@
 //  SwiftUtilityLibMacOSTests.swift
 //  SwiftUtilityLibMacOSTests
 //
-//  Created by Sneed, Brandon on 8/14/17.
+//  Created by Last, First on xx/xx/xx.
 //  Copyright © 2017 __TemplateOrgName__. All rights reserved.
 //
 

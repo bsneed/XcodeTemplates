@@ -2,7 +2,7 @@
 //  SwiftUtilityLibTests.swift
 //  SwiftUtilityLibTests
 //
-//  Created by Sneed, Brandon on 8/9/17.
+//  Created by Last, First on xx/xx/xx.
 //  Copyright © 2017 __TemplateOrgName__. All rights reserved.
 //
 
