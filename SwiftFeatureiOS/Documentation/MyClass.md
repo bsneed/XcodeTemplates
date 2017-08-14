@@ -22,6 +22,14 @@ public func dummy(param: MyType) -> Bool
 ###### Return Value
 
 A bool representing success or failure.
+
+###### Example
+
+```swift
+if ytho is MyClass {
+  ytho.dummy(param: .holla)
+}
+```
    
 ----------------------------
 
