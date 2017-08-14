@@ -14,11 +14,15 @@ The SwiftFeatureiOS API contract can be found here: [API Contract](/SwiftFeature
 
 ### Contacts
 
-For more help or information using, integrating, feature requests, etc, please contact one of the follow team members on Slack or via E-Mail
+Please report bugs, issues and feature requests to:
 
-[George Bush](g-dub@blah.org)<br />
-[Bill Clinton](btothac@blah.org)<br />
-[Barak Obama](thanks@blah.org)<br />
+[MyTeam's JIRA board](http://blah.org/jira)
+
+For more help or information using, integrating, feature requests, etc, please contact one of the following team members on Slack or via E-Mail.
+
+[George Bush](mailto:g-dub@blah.org)<br />
+[Bill Clinton](mailto:btothac@blah.org)<br />
+[Barak Obama](mailto:thanks@blah.org)<br />
 
 
 
