@@ -12,6 +12,27 @@ Integer aliquam nec lorem at iaculis. Aliquam bibendum interdum nibh, sit amet s
 
 The SwiftFeatureiOS API contract can be found here: [API Contract](/SwiftFeatureiOS/Documentation/API.md)
 
+### Quick Start
+---------------
+
+Aliquam molestie maximus magna, id imperdiet justo sagittis vitae. Integer nunc lectus, interdum vel risus vel, interdum commodo ante. In leo dolor, interdum venenatis tortor non, consequat vestibulum orci. Proin diam nibh, placerat vitae ultricies at, sodales nec lacus.
+
+```swift
+if let sampleCode = realCode {
+  doSomething()
+}
+```
+
+In cases where quis lacus vel dui porttitor vestibulum quis iaculis massa. Praesent tincidunt arcu velit, in convallis turpis tincidunt vel.
+
+```swift
+if let sampleCode = realCode {
+  doSomething()
+}
+```
+
+And bingo was his name-o.
+
 ### Contacts
 ------------
 
