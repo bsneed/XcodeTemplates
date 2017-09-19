@@ -11,10 +11,10 @@ Integer aliquam nec lorem at iaculis. Aliquam bibendum interdum nibh, sit amet s
 
 ### Classes
 
-[MyClass](/SwiftFeatureiOS/Documentation/MyClass.md)
+[MyClass](MyClass.md)
 
 ### Types
 
-[MyStruct](/SwiftFeatureiOS/Documentation/MyStruct.md)
+[MyStruct](MyStruct.md)
 
 
