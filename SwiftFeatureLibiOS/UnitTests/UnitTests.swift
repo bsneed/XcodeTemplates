@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import SwiftFeatureLibiOS
 
 class UnitTests: XCTestCase {
     
@@ -23,6 +24,7 @@ class UnitTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        test()
     }
     
     func testPerformanceExample() {
