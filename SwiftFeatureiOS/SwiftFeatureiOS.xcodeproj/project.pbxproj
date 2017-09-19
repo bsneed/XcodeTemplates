@@ -19,7 +19,6 @@
 		659DB4FB1F42556200426350 /* SwiftFeatureiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659DB4BB1F4253D100426350 /* SwiftFeatureiOS.framework */; };
 		659DB4FD1F42556900426350 /* SwiftFeatureiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 659DB4BB1F4253D100426350 /* SwiftFeatureiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		659DB5041F42568A00426350 /* SwiftFeatureiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DB5031F42568A00426350 /* SwiftFeatureiOS.swift */; };
-		659DB5071F425BD500426350 /* API.md in Resources */ = {isa = PBXBuildFile; fileRef = 659DB5061F425BD500426350 /* API.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6541358E1F71B9CA00B22566 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
 		659DB4BB1F4253D100426350 /* SwiftFeatureiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFeatureiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659DB4BE1F4253D100426350 /* SwiftFeatureiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFeatureiOS.h; sourceTree = "<group>"; };
 		659DB4BF1F4253D100426350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +78,6 @@
 		659DB4F11F42543100426350 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		659DB4F31F42543100426350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659DB5031F42568A00426350 /* SwiftFeatureiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFeatureiOS.swift; sourceTree = "<group>"; };
-		659DB5061F425BD500426350 /* API.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = API.md; sourceTree = "<group>"; };
-		659DB5081F425F9300426350 /* MyClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MyClass.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +117,7 @@
 		659DB4B11F4253D100426350 = {
 			isa = PBXGroup;
 			children = (
-				659DB5051F425BB400426350 /* Documentation */,
+				6541358E1F71B9CA00B22566 /* Documentation */,
 				659DB4BD1F4253D100426350 /* SwiftFeatureiOS */,
 				659DB4CB1F4253E500426350 /* UnitTests */,
 				659DB4DA1F42542000426350 /* TestHarness */,
@@ -178,15 +176,6 @@
 				659DB4F31F42543100426350 /* Info.plist */,
 			);
 			path = UITests;
-			sourceTree = "<group>";
-		};
-		659DB5051F425BB400426350 /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				659DB5061F425BD500426350 /* API.md */,
-				659DB5081F425F9300426350 /* MyClass.md */,
-			);
-			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +317,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659DB5071F425BD500426350 /* API.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
