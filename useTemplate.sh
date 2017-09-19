@@ -48,7 +48,7 @@ replaceOrgNames() {
 
 	ack --literal --files-with-matches "__TemplateOrgName__" --print0 "$2" | xargs -0 sed -i "" "s/__TemplateOrgName__/$NEWORGNAME/g"
 	ack --literal --files-with-matches "__templateorgname__" --print0 "$2" | xargs -0 sed -i "" "s/__templateorgname__/$NEWORGBUNDLENAME/g"
-	ack --literal --files-with-matches "--templateorgname--" --print0 "$2" | xargs -0 sed -i "" "s/--templateorgname--/$NEWORGBUNDLENAME/g"
+	ack --literal --files-with-matches "\-\-templateorgname\-\-" --print0 "$2" | xargs -0 sed -i "" "s/--templateorgname--/$NEWORGBUNDLENAME/g"
 }
 
 replaceCreationInfo() {
