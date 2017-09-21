@@ -63,5 +63,3 @@ This template uses Swift as the language and builds a framework for iOS, along w
 
 This template uses Swift as the language and builds a static library for iOS, along with a unit test target, and a separate bundle for resources.  A Test Harness target is also included to build/test/automate features in a standalone environment, which facilitates better feature isolation.  An automation target that points to the Test Harness is included as well.
 
-
-
