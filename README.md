@@ -43,6 +43,10 @@ Simply start a new Xcode project and place it next to useTemplate.sh on the file
 Templates Descriptions
 ----------------------
 
+`SwiftUtilityLib`
+
+This template uses Swift as the language and builds a static library for both iOS and MacOS, along with unit test targets for each.  Both product targets use the same files/tests, and output a static lib with the same name regardless of platform.  ie: `mylib.a` and *not* `mylib-ios.a` or `mylib-macos.a`.
+
 `SwiftUtilityLibiOS`
 
 This template uses Swift as the language and builds a static library for iOS along with a unit test target.
