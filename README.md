@@ -3,6 +3,10 @@ Template system for Xcode projects that's much easier to manage and add to.
 
 note: Swift Static lib templates require Xcode 9 and above.
 
+Why?
+-----
+Xcode's built in templating system is a pain to use.  Projects/Files can't be easily edited or modified within Xcode, and Xcode's templating isn't very well documented (only by 3rd parties) and tends to change between releases, which in turn creates a great deal of work just keeping templates up to date.
+
 Usage
 -----
 
@@ -39,9 +43,21 @@ Simply start a new Xcode project and place it next to useTemplate.sh on the file
 Templates Descriptions
 ----------------------
 
-`SwiftUtilityLib`
+`SwiftUtilityLibiOS`
 
-This template uses Swift as the language and builds static libraries for iOS and MacOS.  It also contains test targets for both iOS and MacOS and provides for os specific tests as well as tests that should run on both platforms.
+This template uses Swift as the language and builds a static library for iOS along with a unit test target.
+
+`SwiftUtilityLibMacOS`
+
+This template uses Swift as the language and builds a static library for MacOS, along with a unit test target.
+
+`SwiftFeatureiOS`
+
+This template uses Swift as the language and builds a framework for iOS, along with a unit test target.  A Test Harness target is also included to build/test/automate features in a standalone environment, which facilitates better feature isolation.  An automation target that points to the Test Harness is also included.
+
+`SwiftFeatureLibiOS`
+
+This template uses Swift as the language and builds a static library for iOS, along with a unit test target, and a separate bundle for resources.  A Test Harness target is also included to build/test/automate features in a standalone environment, which facilitates better feature isolation.  An automation target that points to the Test Harness is included as well.
 
 
 
