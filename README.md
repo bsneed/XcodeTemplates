@@ -40,7 +40,7 @@ Creating your own Templates
 Simply start a new Xcode project and place it next to useTemplate.sh on the file system.  The only things you need to do initially is set the organization name to `__TemplateOrgName__`, and use `__templateorgname__` as a bundle identifier, ie: `com.__templateorgname__` or `com.--templateorgname--`.  It's probably also best to avoid using dashes and underscores in your template names as Xcode wants to convert dashes to underscores and vice versa depending on where.
 
 
-Templates Descriptions
+Template Descriptions
 ----------------------
 
 `SwiftUtilityLib`
